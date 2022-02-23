@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:url(../images/aboutme.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+h2{
+    color: blue;
+    
+}
+.btn{
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 15px;
+    line-height: 1;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: #6cf360;
+    color: #4230e2;
+    cursor:pointer;
+    transition: all 0.3s linear;   
+}
+.btn:hover{
+    background: #034e88;
+    color: #fff;
+    
+
+}
+.img{
+    height: 40vh;
+    width: 35vh;
+    border-radius: 40px; 
+    border:5px solid rgb(153, 51, 114)
+    
+}
+.img:hover{
+    height: 40vh;
+    border-radius: 40px; 
+    
+}
+.box2{
+    position: relative;
+    margin-top: -90px;
+    margin-left: 40%;
+}
